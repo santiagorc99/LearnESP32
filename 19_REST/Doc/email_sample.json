@@ -1,0 +1,55 @@
+{
+    "personalizations": [
+        {
+            "to": [
+                {
+                    "email": "santiagorinconc.05@gmail.com",
+                    "name": "Santi"
+                }
+            ],
+            "subject": "Hello, World!"
+        }
+    ],
+    "content": [
+        {
+            "type": "text/plain",
+            "value": "Heya!"
+        }
+    ],
+    "from": {
+        "email": "santiagorinconc.05@gmail.com",
+        "name": "Santi"
+    },
+    "reply_to": {
+        "email": "santiagorinconc.05@gmail.com",
+        "name": "Santi"
+    }
+}
+
+{
+    "personalization": [
+        {
+            "to": [
+                {
+                    "email": "santiagorinconc.05@gmail.com",
+                    "name": "Santiago"
+                }
+            ],
+            "subject": "Hello world!"
+        }
+    ],
+    "content": [
+        {
+            "type": "text/html",
+            "value": "<h1>Heya from ESP!</h1>"
+        }
+    ],
+    "from": {
+        "email": "santiagorinconc.05@gmail.com",
+        "name": "Santiago"
+    },
+    "reply_to": {
+        "email": "santiagorinconc.05@gmail.com",
+        "name": "Santiago"
+    }
+}

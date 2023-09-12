@@ -1,0 +1,19 @@
+idf_component_register(
+    SRCS
+        "main.c"
+        "event_group_example/event_group_example.c"
+        "queue_example/queue_example.c"
+        "semaphore_example/semaphore_example.c"
+        "task_notification_example/task_notification_example.c"
+        "mutex_example/mutex_example.c"
+        "RTOS_timer_example/RTOS_timer_example.c"
+
+    INCLUDE_DIRS 
+        "."
+        "event_group_example"
+        "queue_example"
+        "semaphore_example"
+        "task_notification_example"
+        "mutex_example"
+        "RTOS_timer_example"
+)
